@@ -20,4 +20,16 @@ public class TestSolution {
         int[] nums = {7, 7, 7, 7, 7, 7, 7};
         Assert.assertEquals(1, new Solution().lengthOfLIS(nums));
     }
+
+    @Test
+    public void lengthOfLISTest4() {
+        int[] nums = {4, 10, 4, 3, 8, 9};
+        Assert.assertEquals(3, new Solution().lengthOfLIS(nums));
+    }
+
+    @Test
+    public void lengthOfLISTest5() {
+        int[] nums = {1, 3, 6, 7, 9, 4, 10, 5, 6};
+        Assert.assertEquals(6, new Solution().lengthOfLIS(nums));
+    }
 }
